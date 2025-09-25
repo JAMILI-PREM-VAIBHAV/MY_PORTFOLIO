@@ -4,59 +4,74 @@
         <title>MY PORTFOLIO</title>
     </head>
     <body>
-        <h1><b>WELCOME TO MY PORTFOLIO</b></h1>
-        <button>About</button>
-        <button>Skills</button>
-        <button>Projects</button>
-        <button>Contact</button>
-        <h1><strong>PREM VAIBHAV JAMILI</strong></h1>
-        <img src="Passport Size Photo Prem Vaibhav.jpg" alt="PREM VAIBHAV JAMILI" width="200px" length="200px">
-        <p>Iam Prem Vaibhav Jamili.<br>I am currently pursuing my B-TECH 3rd year in <em>LBRCE</em> college, MYLAVARAM.<br>Iam currently learning Web Devolpment from CODE_WITH_SWAROOP.</p>
-        <hr>
-        <h1><b>MY SKILLS</b></h1>
-        <ul>
-            <li>PYTHON BASICS</li>
-            <li>JAVA BASICS</li>
-            <li>C BASICS</li>
-            <li>SQL BASICS</li>
-        </ul>
-        <hr>
-        <h1>MY PROJECTS</h1>
-        <table border="2" cellpadding="5" cellspacing="2">
-            <tr>
-                <th>Project</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td>Portfolio Website</td>
-                <td>I had built a portfolio website by using HTML,CSS & JAVASCRIPT</td>
-            </tr>
-            <tr>
-                <td>Finding heavy traffic indicators</td>
-                <td>Predicts the temprature based on climatic conditions</td>
-            </tr>
-        </table>
-        <hr>
-        <h1>CONTACT ME</h1>
-        <p>Feel free to contact me if any doubts?</p>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required size="20px" maxlength="50" placeholder="Enter Name" size="20px"><br><br>
-            <label for="em">Email:</label>
-            <input type="email" id="em" name="email" placeholder="Enter email"><br><br>
-            <label>Gender</label><br>
-            <input type="radio" id="male" name="gender" value="Male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="Female">
-            <label for="female">Female</label><br><br>
-            <label>Select your intrests:</label>
-            <input type="checkbox" id="1" name="Coding" value="Coding">
-            <label for="1">Coding</label>
-            <input type="checkbox" id="2" name="Reading" value="Reading">
-            <label for="2">Reading</label><br><br>
-            <label for="3">Bio(up to 200 characters):</label><br>
-            <textarea placeholder="Write Here" id="3" name="bio"></textarea><br><br>
-            <button type="submit">Submit</button>
-        </form>
+        <header>
+            <h1><b>WELCOME TO MY PORTFOLIO</b></h1>
+            <button>About</button>
+            <button>Skills</button>
+            <button>Projects</button>
+            <button>Contact</button>
+        </header>
+        <main>
+            <section id="about">
+                <h1><strong>PREM VAIBHAV JAMILI</strong></h1>
+                <img src="Passport Size Photo Prem Vaibhav.jpg" alt="PREM VAIBHAV JAMILI" width="200px" length="200px">
+                <p>Iam Prem Vaibhav Jamili.<br>I am currently pursuing my B-TECH 3rd year in <em>LBRCE</em> college, MYLAVARAM.<br>Iam currently learning Web Devolpment from CODE_WITH_SWAROOP.</p>
+                <hr>
+            </section>
+
+            <section id="skills">
+                <h1><b>MY SKILLS</b></h1>
+                <ul>
+                    <li>PYTHON BASICS</li>
+                    <li>JAVA BASICS</li>
+                    <li>C BASICS</li>
+                    <li>SQL BASICS</li>
+                </ul>
+                <hr>
+            </section>
+
+            <section id="projects">
+                <h1>MY PROJECTS</h1>
+                <table border="2" cellpadding="5" cellspacing="2">
+                    <tr>
+                        <th>Project</th>
+                         <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>I had built a portfolio website by using HTML,CSS & JAVASCRIPT</td>
+                    </tr>
+                    <tr>
+                        <td>Finding heavy traffic indicators</td>
+                        <td>Predicts the temprature based on climatic conditions</td>
+                    </tr>
+                </table>
+                <hr>
+            </section>
+
+            <section id="contact">
+                <h1>CONTACT ME</h1>
+                <p>Feel free to contact me if any doubts?</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required size="20px" maxlength="50" placeholder="Enter Name" size="20px"><br><br>
+                    <label for="em">Email:</label>
+                    <input type="email" id="em" name="email" placeholder="Enter email"><br><br>
+                    <label>Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label><br><br>
+                    <label>Select your intrests:</label>
+                    <input type="checkbox" id="1" name="Coding" value="Coding">
+                    <label for="1">Coding</label>
+                    <input type="checkbox" id="2" name="Reading" value="Reading">
+                    <label for="2">Reading</label><br><br>
+                    <label for="3">Bio(up to 200 characters):</label><br>
+                    <textarea placeholder="Write Here" id="3" name="bio"></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
     </body>
 </html>
